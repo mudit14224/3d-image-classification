@@ -36,10 +36,21 @@
             <div class="container">
               <h2>Welcome to <span style="color:red">Image Classification</span></h2>
               <p >3D CNN to Predict the presence of pneumonia from CT scans</p>
-              <div class="upload-btn-wrapper">
-                <button class="btn">Upload a file</button>
-                <input type="file" name="myfile" />
+              <form action="{{url_for('home_page')}}" method="POST", enctype="multipart/form-data">
+                <div class="upload-btn-wrapper">
+                  <input type="file" class="custom-file-input" id="customFile" name="file"/>
+                  <button class="btn submit" for="customFile">Upload a file</button>
+                </div>
+                <br>
+                <button type="submit" class="btn">Submit</button>
+              </form>
+              {% if path %}
+              <div>
+                <h4>{{text}}</h4>
+                <h4>{{res1}}</h4>
+                <h4>{{res2}}</h4>
               </div>
+              {% endif %}
             </div>
         </div>
     </div>
