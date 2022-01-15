@@ -1,4 +1,8 @@
-# 3d-image-classification
+<div align='center'>
+  
+# 3D-Image-Classification
+  
+  </div>
 3D CNN to Predict the presence of pneumonia from CT scans
 
 ## Introduction
