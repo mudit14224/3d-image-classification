@@ -24,11 +24,7 @@ Tumour is formed in human body by abnormal cell multiplication in the tissue. Ea
 ### Developers Page
 ![alt text](https://github.com/mudit14224/3d-image-classification/blob/main/Images/front2.PNG)
 ### Result
-![alt text](https://github.com/mudit14224/3d-image-classification/blob/main/Images/front2.PNG)
-
-### Video Demo
-![alt text]()
-
+![alt text](https://github.com/mudit14224/3d-image-classification/blob/main/Images/front3.PNG)
 
 
 ## Tech Stack
@@ -56,10 +52,13 @@ $ python3 run.py
 ### Requirements
 
 ```
-
- numpy==1.19.5
- Werkzeug==1.0.1
- Flask==1.1.2
+Werkzeug==1.0.1
+matplotlib==3.4.0
+Flask==1.1.2
+tensorflow==2.5.0rc0
+numpy==1.19.5
+scipy==1.7.0
+nibabel==3.2.1
 ```
 
 ## Developers
