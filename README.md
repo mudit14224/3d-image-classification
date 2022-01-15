@@ -20,7 +20,9 @@ Tumour is formed in human body by abnormal cell multiplication in the tissue. Ea
 
 ## Frontend
 ### Home Page
+![alt text](https://github.com/mudit14224/3d-image-classification/blob/main/Images/front1.PNG)
 ### Developers Page
+![alt text](https://github.com/mudit14224/3d-image-classification/blob/main/Images/front2.PNG)
 
 ### Video Demo
 
