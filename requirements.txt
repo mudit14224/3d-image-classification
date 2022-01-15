@@ -1,0 +1,7 @@
+Werkzeug==1.0.1
+matplotlib==3.4.0
+Flask==1.1.2
+tensorflow==2.5.0rc0
+numpy==1.19.5
+scipy==1.7.0
+nibabel==3.2.1
